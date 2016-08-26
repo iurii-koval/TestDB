@@ -13,7 +13,7 @@ public class Runner {
     public static void main(String [] args) throws SQLException {
         String url = "jdbc:derby://localhost:1527/SwissquoteTeamDB";
         String login = "root";
-        String password = "rootPA$$W0RD";
+        String password = "";
                 
         Connection connection = DriverManager.getConnection(url, login, password);
         Statement testStatement = connection.createStatement();
